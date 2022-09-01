@@ -1,0 +1,13 @@
+.wrapper {
+  background-image: linear-gradient(var(--shadow-color), var(--shadow-color)), url("./img/top.jpg");
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header__container {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}

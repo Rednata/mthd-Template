@@ -1,0 +1,25 @@
+.top {
+  color: var(--light-text-color);
+  text-align: center;
+}
+
+.top__container {
+  padding: 0 304px;
+}
+
+.top__title {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+  margin-bottom: 35px;
+}
+
+.top__content {
+  font-size: 22px;
+  line-height: 31px;
+  margin-bottom: 90px;
+}
+
+.top__button {
+  margin-bottom: 120px;
+}

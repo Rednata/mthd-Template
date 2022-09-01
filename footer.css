@@ -1,0 +1,28 @@
+.footer {
+  color: var(--light-text-color);
+}
+
+.footer__container {
+  background-color: var(--footer-color);
+  padding: 45px 200px;
+}
+
+.footer__logo {
+  margin-right: 19px;
+}
+
+.footer__nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 290px;
+  margin: 0 auto;
+  vertical-align: middle;
+
+}
+
+.footer__copyright, 
+.footer__made {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
