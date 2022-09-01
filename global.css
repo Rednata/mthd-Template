@@ -70,17 +70,36 @@ iframe {
 */
 
 .container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 200px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 200px;
+  border: 1px solid red;
 }
 
 body {
-    min-width: 320px;
-    min-height: 100vh;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    background-color: var(--background-color);
-    color: var(--dark-text-color);
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: var(--background-color);
+  color: var(--dark-text-color);
 }
+
+@media(max-width: 1400px) {
+    .container {
+    padding: 0 50px;
+  }
+}  
+
+@media(max-width: 1024px) {
+    .container {
+    padding: 0 30px;
+  }
+}  
+
+@media(max-width: 480px) {
+    .container {
+    padding: 0 15px;
+  }
+}  

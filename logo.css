@@ -1,5 +1,5 @@
 .logo {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 68px;
@@ -10,3 +10,19 @@
   font-size: 25px;
   color: var(--light-text-color);
 }
+
+@media(max-width: 1024px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+  }
+} 
+
+@media(max-width: 480px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+}
+} 
