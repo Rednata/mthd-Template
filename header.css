@@ -23,8 +23,17 @@
   background-position: center;
 }
 
+@media(max-width: 1024px) {
+  .header__box {  
+    padding-top: 26px;
+  }
+} 
+
 @media(max-width: 480px) {
   .call-svg {
     display: block;
+  }
+  .header__box {  
+    padding-top: 15px;
   }
 } 
