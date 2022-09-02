@@ -59,8 +59,7 @@
   }
   .bottom__container {
     padding-bottom: 56px;
-    /* background-position: 
-    background-size: 100%; */
+    background-size: auto 100%;
   }
 }
 

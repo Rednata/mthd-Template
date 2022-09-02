@@ -27,6 +27,9 @@
   .header__box {  
     padding-top: 26px;
   }
+  .wrapper {
+    background-size: auto 100%;
+  }
 } 
 
 @media(max-width: 480px) {
