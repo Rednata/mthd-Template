@@ -1,0 +1,20 @@
+.advantage {
+    flex-basis: 196px;
+  }
+  
+  .advantage:before {
+    content: counter(count);
+    counter-increment: count;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: var(--light-text-color);
+    font-weight: 500;
+    font-size: 57px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }    

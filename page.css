@@ -1,20 +1,33 @@
-.page__header {
-  margin-bottom: 120px;
+.page {
+  background-image: url("./img/top.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 
+  
+  /* background-position: top; */
 }
 
-.page__top,
-.page__middle {
+.page__header {
+  padding-bottom: 120px;
+}
+
+.page__top {
   margin-bottom: 70px;
 }
 
-.page__subtitle {
+.page__middle {
+  margin-bottom: 73px;
+}
+
+.subtitle {
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
-  margin-bottom: 25px;
 }
 
 @media(max-width:1100px) {
+  .page {
+    background-image: url("./img/stag-office-mockup.jpg");
+  }
   .page__header {
     margin-bottom: 70px;
   }  

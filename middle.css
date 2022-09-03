@@ -2,11 +2,18 @@
   text-align: center;
 }
 
+.middle__subtitle {
+  margin-bottom: 25px;
+}
+
 .middle__hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35px;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
 .middle__hr:before,
@@ -19,7 +26,7 @@
 }
 
 .middle__hr:before {
-  margin-right: 23px;
+  margin-right: 22px;
 }
 
 .middle__hr:after {
@@ -31,39 +38,21 @@
   font-size: 18px;
   line-height: 25px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 59px;
 }
 
 .middle__list {
-  position: relative;
   display: flex;
   justify-content: center;
   gap: 50px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 28px;
   counter-reset: count 0;
 }
 
-.advantage {
-  flex-basis: 196px;
-}
-
-.advantage:before {
-  content: counter(count);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 122px;
-  height: 122px;
-  border-radius: 50%;
-  background-color: var(--accent-color);
-  counter-increment: count;
-  font-weight: 500;
-  font-size: 57px;
-  color: var(--light-text-color);
-  margin: 0 auto;
-  margin-bottom: 16px;
+.middle__advantage {
+line-height: 28px;
+text-align: center;
 }
 
 .arrow {

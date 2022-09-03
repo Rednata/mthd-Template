@@ -1,10 +1,10 @@
 .footer {
+  background-color: var(--footer-color);
   color: var(--light-text-color);
 }
 
 .footer__container {
   display: flex;
-  background-color: var(--footer-color);
   padding: 45px 200px;
   margin: 0 auto;
 }

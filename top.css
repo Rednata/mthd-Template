@@ -1,6 +1,8 @@
 .top {
+  background-image: linear-gradient(var(--shadow-color), var(--shadow-color));
   color: var(--light-text-color);
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 .top__container {
@@ -12,17 +14,17 @@
   font-weight: 900;
   font-size: 52px;
   line-height: 61px;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .top__content {
   font-size: 22px;
   line-height: 31px;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 
 .top__button {
-  margin-bottom: 120px;
+  margin-bottom: 119px;
 }
 
 @media(max-width:1024px) {
