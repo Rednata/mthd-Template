@@ -1,13 +1,7 @@
 .page {
   background-image: url("./img/top.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 
-  
-  /* background-position: top; */
-}
-
-.page__header {
-  padding-bottom: 120px;
+  background-size: contain;
 }
 
 .page__top {
