@@ -53,9 +53,22 @@
 }
 
 @media(max-width:1024px) {
+  .bottom__subtitle {
+    margin-bottom: 16px;
+}
+.bottom__content {
+  letter-spacing: 0;
+  margin-bottom: 40px;
+}
+.form__fieldset {
+  gap: 16px;
+  /* margin-bottom: 37px; */
+}
   .form__input {
-    font-size: 20px;
+    font-size: 20px;  
+    line-height: 23px;  
     width: 380px;
+    padding: 8px 23px;
   }
   .bottom__button {
     margin-bottom: 30px;

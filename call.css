@@ -25,6 +25,7 @@
 @media(max-width: 1024px) {
   .call__phone {
     font-size: 21px;
+    line-height: 23px;
   }
   .call__link {
     font-size: 13px;

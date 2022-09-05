@@ -1,5 +1,8 @@
 .header {
-  background-image: linear-gradient(var(--shadow-color), var(--shadow-color));
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
 }
 
 .header__box {  
@@ -8,6 +11,7 @@
   align-items: center;
   padding-top: 39px;
 }
+
 
 .call-svg {
   display: none;
@@ -20,14 +24,12 @@
   background-position: center;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1100px) {
   .header__box {  
-    padding-top: 26px;
-  }
-  .wrapper {
-    background-size: auto 100%;
+    padding-top: 27px;
   }
 } 
+
 
 @media(max-width: 480px) {
   .call-svg {
