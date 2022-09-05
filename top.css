@@ -42,7 +42,6 @@
   .top {
     background-image: linear-gradient(var(--shadow-color), var(--shadow-color))
     , url("./img/stag-office-mockup.jpg");
-
   }
     .top__container {
     max-width: 780px;
@@ -80,7 +79,9 @@
 
 @media(max-width:420px) {
   .top {
-    padding-top: 65px;
+    background-image: linear-gradient(var(--shadow-color), var(--shadow-color))
+      , url("./img/stag-office-320.jpg");
+    padding-top: 112px;
   }
   .top__title {
     font-size: 24px;
@@ -90,6 +91,9 @@
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 54px;
+  }
+  .top__content_none {
+    display: none;
   }
 }
 
@@ -107,6 +111,6 @@
     line-height: 20px;
   }
   .top__button {
-    margin-bottom: 65px;
+    margin-bottom: 64px;
   }
 }

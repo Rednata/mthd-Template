@@ -136,14 +136,18 @@ text-align: center;
 
 @media(max-width:480px) {
   .middle__list {
-    row-gap: 40px;
+    row-gap: 43px;
   }
 }
 
 @media(max-width:360px) {
+  .middle__subtitle {
+    margin-bottom: 17px;
+  }
   .middle__content {
     font-size: 12px;
     line-height: 17px;
+    margin-bottom: 41px;
   }
   .middle__item:not(:first-of-type) {
     display: none;

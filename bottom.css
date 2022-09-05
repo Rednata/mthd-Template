@@ -62,7 +62,6 @@
 }
 .form__fieldset {
   gap: 16px;
-  /* margin-bottom: 37px; */
 }
   .form__input {
     font-size: 20px;  
@@ -96,11 +95,11 @@
 
 @media(max-width:480px) {
   .bottom__container {
-    padding-top: 30px;
+    padding-top: 31px;
     padding-bottom: 30px;
   }
   .bottom__subtitle {
-    margin-bottom: 10px;
+    margin-bottom: 13px;
   }
   .bottom__content {
     font-size: 12px;
@@ -108,11 +107,20 @@
   }
 .form__fieldset {
   padding: 0;
+  gap: 11px;
+  margin-bottom: 43px;
 }
   .form__input {
+    padding: 2px 18px;
     font-size: 14px;
     width: 100%;
   }  
+  .bottom__button {
+      font-size: 16px;
+      padding: 8px 32px;
+  }
+  
+  
   .bottom__agreement {
     font-size: 11px;
   }
